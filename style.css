@@ -27,22 +27,27 @@ body{
     margin: 0 auto;
 }
 
-header h1{
-    font-family: "Dephunked";
-    font-size: 4.5em;
-    letter-spacing: .1em;
+header{
+    display: flex;
+    margin: 1em;
+    gap: 25em;
 }
 
-nav{
-
+header h1{
+    font-family: "Dephunked";
+    font-size: 5.5em;
+    letter-spacing: .1em;
 }
 
 nav ul{
     list-style: none;
+    margin-top: 3.5em;
+    font-size: 1.8em;
 }
 
 nav ul li{
-    
+    display: inline;
+    padding: 8px;
 }
 
 a{
