@@ -1,0 +1,57 @@
+:root{
+    --main-color: white;
+    --secondary-color: rgb(42, 225, 13);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+@font-face {
+    font-family: "Dephunked";
+    src: url(./assets/dephun2.ttf);
+}
+
+.main-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header h1{
+    font-family: "Dephunked";
+    font-size: 4.5em;
+    letter-spacing: .1em;
+}
+
+nav{
+
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    
+}
+
+a{
+    font-family: "Poppins";
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
